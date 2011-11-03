@@ -1,0 +1,15 @@
+[user]
+    name  = Michael Nowack
+    email = syranez@minaga-church.de
+
+[core]
+    editor = "/usr/bin/vim"
+# sadly, vimpager ist not available on all systems
+#    pager  = "/usr/bin/vimpager"
+
+[alias]
+    lg = log --graph --pretty=format:'%C(yellow)%h%Creset%C(bold green)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    ci = commit --verbose
+
+[i18n]
+    commitEncoding = utf-8

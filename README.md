@@ -5,4 +5,6 @@ This is the default skeleton home directory of syranez.
 Current available content is
 
 1. vim configuration
-1. bash configuration
+2. bash configuration
+3. git global configuration
+
