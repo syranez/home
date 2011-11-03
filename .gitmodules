@@ -1,3 +1,6 @@
 [submodule ".vim"]
 	path = .vim
 	url = git@github.com:syranez/.vim.git
+[submodule ".bash"]
+	path = .bash
+	url = git@github.com:syranez/.bash.git
