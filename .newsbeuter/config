@@ -1,0 +1,66 @@
+# display description of entry instead of content:encoded
+always-display-description true
+
+# do fetch feeds on startup and then continuously
+auto-reload yes
+
+# open article with firefox
+browser firefox
+
+# just store 80 articles per feed
+max-items 80
+
+# program to use for notify
+notify-program "/usr/bin/notify-send"
+
+# format for notify message
+notify-format "%d new articles (%n unread articles, %f unread feeds)"
+
+# send privacy message to terminal
+notify-screen yes
+
+# fetch feeds on startup
+refresh-on-startup yes
+
+# reload feeds continuously all 60 minutes
+reload-time 60
+
+# Do not show key mapping. no b00n anymore
+show-keymap-hint no
+
+# Do not show read feeds
+show-read-feeds no
+
+# Do not show read articles
+show-read-articles no
+
+suppress-first-reload yes
+
+# fefe does like updates
+reset-unread-on-update "http://blog.fefe.de/rss.xml?html"
+
+# keybindings
+unbind-key C
+unbind-key A
+unbind-key n
+unbind-key p
+unbind-key N
+unbind-key k
+unbind-key l
+unbind-key q
+bind-key q quit
+bind-key h quit
+bind-key i mark-feed-read
+bind-key j next-unread
+bind-key ö prev-unread
+bind-key n toggle-article-read
+bind-key k up
+bind-key l down
+bind-key n toggle-show-read-feeds
+
+# theme
+color background white blue
+color listnormal white blue
+color listfocus yellow blue bold
+color info white blue bold
+color article white blue bold
