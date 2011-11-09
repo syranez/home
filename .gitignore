@@ -1,13 +1,24 @@
 # Standard file types
 *.pdf
-*.jpg
+*.[jJ][pP][gG]
+*.jpe
 *.zip
 *.odt
-*.png
+*.[pP][nN][gG]
 *.html
+
+# Mediadateien
 *.ogg
-*.pgp
+*.mp3
+*.mp4
+*.m3u
+*.flv
+
+# Quellcode
+*.php
 *.sh
+
+*.pgp
 *.kdb
 *.lock
 *.txt
@@ -16,8 +27,8 @@
 *.bz2
 *.tar.gz
 *.conf
-*.php
 *.log
+*.xml
 
 # Standard directorys
 .ssh/
