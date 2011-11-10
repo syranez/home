@@ -32,3 +32,10 @@
 
 # Standard directorys
 .ssh/
+
+# history files, usally host bound so ignore it
+.mysql_history
+.viminfo
+.lesshst
+.octave_hist
+.bash_history
