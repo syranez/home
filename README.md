@@ -9,4 +9,6 @@ Current available content is
 3. git global configuration
 4. tmux configuration
 5. newsbeuter configuration
+
     You have to set an url file in .newsbeuter though
+6. nload configuration
