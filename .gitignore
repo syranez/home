@@ -40,3 +40,6 @@
 .octave_hist
 .bash_history
 .sqlite_history
+
+# do not track sensitive date
+.my.cnf
