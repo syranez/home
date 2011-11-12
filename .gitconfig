@@ -3,7 +3,7 @@
     email = syranez@minaga-church.de
 
 [core]
-    editor = "/usr/bin/vim"
+    editor = vim
 # sadly, vimpager ist not available on all systems
 #    pager  = "/usr/bin/vimpager"
 
