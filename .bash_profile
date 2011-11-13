@@ -4,4 +4,4 @@
 
 # source keys
 keychain ~/.ssh/id_dsa
-. ~/.keychain/$HOSTNAME-
+. ~/.keychain/$HOSTNAME-sh
