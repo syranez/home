@@ -1,3 +1,4 @@
 away.log
 *.pem
 config
+*.autosave
