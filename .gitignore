@@ -41,6 +41,9 @@
 .bash_history
 .sqlite_history
 
+# ignore configuration folders of programs I do not think about
+.libreoffice/
+
 # do not track sensitive date
 .my.cnf
 .keychain/
