@@ -30,6 +30,9 @@
 *.log
 *.xml
 
+# session files
+.pulse-cookie
+
 # Standard directorys
 .ssh/
 
