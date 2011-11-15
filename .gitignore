@@ -47,3 +47,5 @@
 # do not track sensitive date
 .my.cnf
 .keychain/
+.fetchmailrc
+.fetchids
