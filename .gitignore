@@ -47,8 +47,9 @@
 # ignore configuration folders of programs I do not think about
 .libreoffice/
 
-# do not track sensitive date
+# do not track sensitive data
 .my.cnf
 .keychain/
 .fetchmailrc
 .fetchids
+.procmailrc
