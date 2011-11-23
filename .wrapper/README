@@ -1,0 +1,5 @@
+Wrapper scripts
+
+Installation: Add ~/.wrapper to your PATH.
+Available commands:
+    - urxvt: Starts an urxvtc and the urxtd
