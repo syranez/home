@@ -44,7 +44,7 @@
 .bash_history
 .sqlite_history
 
-# ignore configuration folders of programs I do not think about
+# ignore configuration folders of programs I do not care about
 .libreoffice/
 
 # ignore directorys containing only states.
