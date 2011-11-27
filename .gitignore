@@ -47,6 +47,9 @@
 # ignore configuration folders of programs I do not think about
 .libreoffice/
 
+# ignore directorys containing only states.
+.macromedia/
+
 # do not track sensitive data
 .my.cnf
 .keychain/
