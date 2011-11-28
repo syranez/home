@@ -32,6 +32,7 @@
 
 # session files
 .pulse-cookie
+.xsession-errors
 
 # Standard directorys
 .ssh/
