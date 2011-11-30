@@ -34,6 +34,7 @@
 .pulse-cookie
 .xsession-errors
 .serverauth*
+.rnd
 
 # Standard directorys
 .ssh/
