@@ -49,6 +49,7 @@
 .octave_hist
 .bash_history
 .sqlite_history
+.gtk-bookmarks
 
 # ignore configuration folders of programs I do not care about
 .libreoffice/
