@@ -36,6 +36,9 @@
 .serverauth*
 .rnd
 
+# configuration of programs, I should not touch
+.htoprc
+
 # Standard directorys
 .ssh/
 
