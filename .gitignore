@@ -56,6 +56,7 @@
 
 # ignore directorys containing only states.
 .macromedia/
+.gstreamer-0.10/
 
 # do not track sensitive data
 .my.cnf
