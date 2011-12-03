@@ -35,6 +35,7 @@
 .xsession-errors
 .serverauth*
 .rnd
+.dbus/
 
 # configuration of programs, I should not touch
 .htoprc
