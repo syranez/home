@@ -51,6 +51,7 @@
 .bash_history
 .sqlite_history
 .gtk-bookmarks
+.pentadactyl/
 
 # ignore configuration folders of programs I do not care about
 .libreoffice/
