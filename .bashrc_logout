@@ -1,0 +1,10 @@
+#!/bin/bash
+#+
+#+ Executes the commands in $HOME/.bash/bashrc_logout
+#+ NOTHING ELSE.
+#+
+#+ bashrc_logout is versioned by My bash-repository.
+
+if [ -f "$HOME/.bash/bashrc_logout" ]; then
+    source $HOME/.bash/bashrc_logout;
+fi
