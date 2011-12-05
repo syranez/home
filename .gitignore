@@ -36,6 +36,7 @@
 .serverauth*
 .rnd
 .dbus/
+.dvdcss/
 
 # configuration of programs, I should not touch
 .htoprc
