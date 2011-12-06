@@ -37,6 +37,7 @@
 .rnd
 .dbus/
 .dvdcss/
+.covers/
 
 # configuration of programs, I should not touch
 .htoprc
