@@ -35,6 +35,7 @@
 .xsession-errors
 .serverauth*
 .rnd
+.ICEauthority
 .dbus/
 .dvdcss/
 .covers/
