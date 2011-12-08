@@ -39,6 +39,7 @@
 .dbus/
 .dvdcss/
 .covers/
+.cache/
 
 # configuration of programs, I should not touch
 .htoprc
