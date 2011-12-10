@@ -71,4 +71,6 @@
 .fetchmailrc
 .fetchids
 .procmailrc
+# contains path to last used kdb
+.keepass/
 postponed
