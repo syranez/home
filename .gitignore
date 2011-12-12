@@ -74,4 +74,6 @@
 .procmailrc
 # contains path to last used kdb
 .keepass/
+# contains oauth code
+.bti
 postponed
