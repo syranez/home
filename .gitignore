@@ -60,6 +60,7 @@
 
 # ignore configuration folders of programs I do not care about
 .libreoffice/
+.gimp-2.6/
 
 # ignore directorys containing only states.
 .macromedia/
