@@ -6,6 +6,8 @@
 *.odt
 *.[pP][nN][gG]
 *.html
+# Ignore vim swap files
+*.swp
 
 # Mediadateien
 *.ogg
