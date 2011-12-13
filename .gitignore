@@ -62,6 +62,9 @@
 .libreoffice/
 .gimp-2.6/
 
+# ignore configuration files I do not care about
+.gnuplot-wxt
+
 # ignore directorys containing only states.
 .macromedia/
 .gstreamer-0.10/
