@@ -10,3 +10,13 @@ fi
 if [[ -f ~/.bash/bashrc ]]; then
     . ~/.bash/bashrc
 fi
+
+# bash configuration for fidion systems.
+if [[ -f ~/.bashrc.fidion ]]; then
+    . ~/.bashrc.fidion
+fi
+
+# bash configuration for naxos.
+if [[ -f ~/.bashrc.fidion.naxos ]]; then
+    . ~/.bashrc.fidion.naxos
+fi
