@@ -5,6 +5,3 @@
 # source keys
 keychain ~/.ssh/id_dsa
 . ~/.keychain/$HOSTNAME-sh
-
-keychain ~/.ssh/arbeit
-. ~/.keychain/$HOSTNAME-sh
