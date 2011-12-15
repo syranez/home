@@ -63,6 +63,7 @@
 # ignore configuration folders of programs I do not care about
 .libreoffice/
 .gimp-2.6/
+.pki/
 
 # ignore configuration files I do not care about
 .gnuplot-wxt
