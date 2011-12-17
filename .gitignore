@@ -85,4 +85,6 @@
 .remmina/
 # contains oauth code
 .bti
+# contains projects and mail adress
+.BOINC Manager
 postponed
