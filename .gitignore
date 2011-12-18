@@ -42,6 +42,7 @@
 .dvdcss/
 .covers/
 .cache/
+.fontconfig/
 
 # configuration of programs, I should not touch
 .htoprc
