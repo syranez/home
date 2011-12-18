@@ -66,6 +66,8 @@
 .gimp-2.6/
 .pki/
 .gconfd/
+# created by gimp (general graphics library)
+.gegl-0.0/
 
 # ignore configuration files I do not care about
 .gnuplot-wxt
