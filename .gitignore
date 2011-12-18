@@ -65,6 +65,7 @@
 .libreoffice/
 .gimp-2.6/
 .pki/
+.gconfd/
 
 # ignore configuration files I do not care about
 .gnuplot-wxt
