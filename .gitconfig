@@ -9,6 +9,7 @@
 [alias]
     lg   = log --graph --pretty=format:'%C(yellow)%h%Creset%C(bold green)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     lga  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    stat = git status
     ci   = commit --verbose
     lgd  = log -p -2
     last = log -1 HEAD
