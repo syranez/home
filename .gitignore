@@ -43,6 +43,7 @@
 .covers/
 .cache/
 .fontconfig/
+.Xauthority
 
 # configuration of programs, I should not touch
 .htoprc
