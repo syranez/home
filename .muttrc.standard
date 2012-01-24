@@ -1,0 +1,90 @@
+
+# Use vim as Editor
+set editor=/usr/bin/vim
+# Number of context lines
+set pager_context=1
+# Number of index lines to show
+set pager_index_lines=6
+# no implicit next-page/prev-page
+set menu_scroll
+# status bar on top
+set status_on_top
+# sort by threads
+set sort=threads
+# sent mail is saved here
+set record="$HOME/Mail/sent"
+# delete without prompting
+set delete=yes
+# quote message in reply
+set include=yes
+# no prompting in reply
+set fast_reply=yes
+# no noise
+set beep=no
+# no + on wrapped lines
+set markers=no
+# no prompt for save to =keep
+set confirmappend=no
+# no L for mail_list
+set to_chars=" +TCF"
+# do not treat # as quote start
+set quote_regexp="^([ \t]*[|>:}])+"
+set use_envelope_from=yes
+set envelope_from=yes
+set charset="utf-8"
+set config_charset="utf-8"
+
+set status_format="-%r-Mutt: %f [Msgs:%?M?%M/?%m%?n? New:%n?%?o? Old:%o?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b? %?l? %l?]---(%s/%S)-NONE--%>-(%P)---"
+set pager_format="%-10.10i %[!%a %b %d %R]"
+set date_format="!%H:%M %a %d %b     "
+set index_format="%4C %Z %[%b%d] %-15.15F %s"
+set folder_format="%2C %t %N %F %2l %-8.8u %-8.8g %8s %d %f"
+
+auto_view text/html
+alternative_order text/plain text/enriched text application/postscript image/*
+
+# default list of header fields to weed out when displaying mail
+#ignore them all and then unignore what you want to see
+ignore *
+unignore  Date To From: Subject X-Mailer Organization User-Agent
+hdr_order Date From To Subject X-Mailer User-Agent Organization
+
+bind pager h display-toggle-weed        #toggle headers with h key
+
+# Addressbuch
+set query_command="abook --mutt-query %s"
+
+# Rechtschreibung
+set ispell="aspell -d de_DE -e -c"
+
+# Hier darf kein default für quoted benutzt werden.
+# Ansonsten wird der Rest der Zeile ohne Zeichen in der Defaulthintergrundfrabe des Terminals gezeichnet.
+# Ergo muss hier als Hintergrundfarbe die selbe stehen, wie sonst auch konfiguriert ist.
+color quoted green black
+color quoted1 yellow black
+color quoted2 blue black
+color quoted3 magenta black
+
+color   hdrdefault      brightcyan      black
+color   header          brightwhite     black "^from:"
+color   header          brightwhite     black   "^subject:"
+# color   quoted          brightgreen     black
+color   signature       brightwhite     black
+color   indicator       black           white
+
+color   error           red             white
+mono    error           bold
+color   status          black cyan
+mono    status          bold
+color   tree            yellow          black
+
+color   tilde           brightmagenta   black
+color   body            brightwhite     black    "[-a-z_0-9.]+@[-a-z_0-9.]+"
+mono    body            bold                    "[-a-z_0-9.]+@[-a-z_0-9.]+"
+color   body            brightyellow    black   "^Good signature"
+mono    body            bold                    "^Good signature"
+color   body            brightwhite     red     "^Bad signature from.*"
+mono    body            bold                    "^Bad signature from.*"
+color   normal          white           black
+color   message         green           black
+color   attachment      brightgreen     black
