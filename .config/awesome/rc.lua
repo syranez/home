@@ -56,29 +56,23 @@ use_titlebar = false
 
 --{{{ Shifty configured tags.
 shifty.config.tags = {
-    ["Iol"]      = {
+    ["naxos"]      = {
                      position = 1,
                      init     = true},
     ["www"]      = {
                      position = 2,
                      init     = true},
-    ["marathon"] = {
+    ["opera"]    = {
                      position = 3,
                      init     = true},
-    ["opera"]    = {
+    ["chromium"] = {
                      position = 4,
                      init     = true},
-    ["chromium"] = {
+    ["pw"]       = {
                      position = 5,
                      init     = true},
-    ["pw"]       = {
-                     position = 6,
-                     init     = true},
-    ["naxos"]    = {
-                     position = 7,
-                     init     = true},
     ["skype"]    = {
-                     position = 8,
+                     position = 6,
                      init     = true},
 }
 --}}}

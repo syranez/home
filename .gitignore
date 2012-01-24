@@ -58,6 +58,7 @@
 .lesshst
 .octave_hist
 .bash_history
+.php_history
 .sqlite_history
 .calc_history
 .gtk-bookmarks
