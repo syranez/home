@@ -10,3 +10,8 @@ fi
 if [[ -f ~/.bash/bashrc ]]; then
     . ~/.bash/bashrc
 fi
+
+# overwrite settings with host settings
+if [[ -f ~/.home/bashrc ]]; then
+    . ~/.home/bashrc
+fi
