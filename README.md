@@ -23,6 +23,7 @@ My setup is following:
 
 1. at work
 
+<pre>
         github
           _
          / \
@@ -44,11 +45,13 @@ My setup is following:
           |          |     |     |     |
          \_/        \_/   \_/   \_/   \_/
    work station  remotes
+</pre>
 
 So I can manage all my accounts at work having the same configuration with my general configuration (updateable!) and setting new work configuration at its own, never getting to github.
 
 2. at home
 
+<pre>
 It is similar at home, but on _each_ of my pcs exist an bare repository.
 
         github
@@ -72,6 +75,7 @@ It is similar at home, but on _each_ of my pcs exist an bare repository.
           |          |     |     |     |
          \_/        \_/   \_/   \_/   \_/
    work station  remotes
+</pre>
 
 Frequently asked questeions
 ---------------------------
