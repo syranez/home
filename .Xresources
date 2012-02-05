@@ -44,7 +44,7 @@ URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 ! URxvt.matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
 URxvt.perl-ext-common: default,matcher
 ! URxvt.perl-ext-common: default,matcher,-option-popup,-selection-popup,-readline
-URxvt*font: xft:monospace:pixelsize=11
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=11
 URxvt.tintColor: black
 URxvt.mapAlert: True
 URxvt.visualBell: False
@@ -65,4 +65,4 @@ Xft.hintstyle: hintfull
 Xft.rgba: rgb
 *customization: -
 
-*font: xft:monospace:pixelsize=11
+*font: xft:DejaVu Sans Mono:pixelsize=11
