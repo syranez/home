@@ -17,9 +17,65 @@ Current available content is
 Installation
 ------------
 
-+ mutt
+Prefered way of installation is cloning the repository into your repository folder. 
 
-There is a .muttrc.standard file with My standard configuration, which can be used on all accounts. Include it in your .muttrc and overwrite what you do not like and set your private data in .muttrc.
+My setup is following:
+
+1. at work
+
+<pre>
+        github
+          _
+         / \
+          |
+          |
+          |
+         \_/
+  1:1 clone r+w access
+         / \
+          |
+          |
+          |
+         \_/
+      read clone --bare with my changes for work
+          _          _     _     _     _
+         / \        / \   / \   / \   / \
+          |          |     |     |     |
+          |          |     |     |     |
+          |          |     |     |     |
+         \_/        \_/   \_/   \_/   \_/
+   work station  remotes
+</pre>
+
+So I can manage all my accounts at work having the same configuration with my general configuration (updateable!) and setting new work configuration at its own, never getting to github.
+
+2. at home
+
+<pre>
+It is similar at home, but on _each_ of my pcs exist an bare repository.
+
+        github
+          _
+         / \
+          |
+          |
+          |
+         \_/
+  1:1 clone r+w access
+         / \
+          |
+          |
+          |
+         \_/
+      read clone --bare with my changes for work
+          _          _     _     _     _
+         / \        / \   / \   / \   / \
+          |          |     |     |     |
+          |          |     |     |     |
+          |          |     |     |     |
+         \_/        \_/   \_/   \_/   \_/
+   work station  remotes
+</pre>
 
 Frequently asked questeions
 ---------------------------
