@@ -44,7 +44,6 @@ URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 ! URxvt.matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
 URxvt.perl-ext-common: default,matcher
 ! URxvt.perl-ext-common: default,matcher,-option-popup,-selection-popup,-readline
-URxvt*font: xft:monospace:pixelsize=11
 URxvt.tintColor: black
 URxvt.mapAlert: True
 URxvt.visualBell: False
@@ -56,6 +55,12 @@ URxvt*loginShell: True
 URxvt.transparent:true
 URxvt*inheritPixmap: true.
 
+URxvt*font:           xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=11
+URxvt*imFont:         xft:DejaVu\ Sans\ Mono\ for\ Powerline:regular:pixelsize=11
+URxvt*boldFont:       xft:DejaVu\ Sans\ Mono\ for\ Powerline:bold:pixelsize=11
+URxvt*italicFont:     xft:DejaVu\ Sans\ Mono\ for\ Powerline:italic:pixelsize=11
+URxvt*boldItalicFont: xft:DejaVu\ Sans\ Mono\ for\ Powerline:bold:italic:pixelsize=11
+
 !Xft
 Xft.dpi: 96
 Xft.lcdfilter: lcddefault
@@ -65,4 +70,8 @@ Xft.hintstyle: hintfull
 Xft.rgba: rgb
 *customization: -
 
-*font: xft:monospace:pixelsize=11
+*font:           xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=11
+*imFont:         xft:DejaVu\ Sans\ Mono\ for\ Powerline:regular:pixelsize=11
+*boldFont:       xft:DejaVu\ Sans\ Mono\ for\ Powerline:bold:pixelsize=11
+*italicFont:     xft:DejaVu\ Sans\ Mono\ for\ Powerline:italic:pixelsize=11
+*boldItalicFont: xft:DejaVu\ Sans\ Mono\ for\ Powerline:bold:italic:pixelsize=11

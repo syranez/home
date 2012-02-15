@@ -13,6 +13,8 @@ Current available content is
 
     You have to set an url file in .newsbeuter though
 6. nload configuration
+7. A patched DejaVu font for general use.
+
 
 Installation
 ------------
