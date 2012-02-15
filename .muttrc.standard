@@ -28,7 +28,7 @@ set confirmappend=no
 # no L for mail_list
 set to_chars=" +TCF"
 # do not treat # as quote start
-set quote_regexp="^([ \t]*[|>:}])+"
+set quote_regexp="^([ \t]*[>:}])+"
 set use_envelope_from=yes
 set envelope_from=yes
 set charset="utf-8"
