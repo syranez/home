@@ -73,6 +73,7 @@
 .gegl-0.0/
 # created by some dumb gnome applications
 .gnome2/
+.opera-next/
 
 # ignore configuration files I do not care about
 .gnuplot-wxt
