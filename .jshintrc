@@ -1,7 +1,7 @@
 {
     "bitwise":      false,      // REVISIT! currently disallow bit operations.
     "curly":        true,       // all blocks do have to have {} 
-    "eqeqeq":       true,       // REVISIT! Require triple equals i.e. `===`.
+    "eqeqeq":       false,      // Require triple equals i.e. `===`.
     "forin":        true,       // Each for in loop has to have an hasOwnProperty-Check
     "immed":        true,       // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
     "latedef":      true,       // Prohibit variable use before definition.
