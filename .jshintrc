@@ -1,7 +1,7 @@
 {
     "bitwise":      false,      // REVISIT! currently disallow bit operations.
     "curly":        true,       // all blocks do have to have {} 
-    "eqeqeq":       true,       // REVISIT! Require triple equals i.e. `===`.
+    "eqeqeq":       false,      // Require triple equals i.e. `===`.
     "forin":        true,       // Each for in loop has to have an hasOwnProperty-Check
     "immed":        true,       // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
     "latedef":      true,       // Prohibit variable use before definition.
@@ -28,7 +28,7 @@
     "globalstrict": false,      // Do not suppress the warning about use of global strict.
     "iterator":     false,      // Do not suppress warnings about use of __iterator__ property.
     "lastsemic":    false,      // Do not suppress warnings about missing semicolons on last statements.
-    "laxbreak":     false,      // Do not suppress warnings about possibly unsafe line breakings.
+    "laxbreak":     true,       // Do suppress warnings about possibly unsafe line breakings.
     "laxcomma":     false,      // Do not suppress warnings about comma-first coding style.
     "loopfunc":     false,      // Do not suppress warnings about creating functions in loops.
     "multistr":     false,      // Do not suppress warnings about multi-line strings.
