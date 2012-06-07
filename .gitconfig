@@ -5,10 +5,9 @@
     editor = vim
 # pager is a wrapper script in $HOME/.wrapper
 #+ it uses vimpager as pager if available otherwise less
-    pager  = pager
+#    pager  = gitpager
 [alias]
-    lg   = log --graph --pretty=format:'%C(yellow)%h%Creset%C(bold green)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-    lga  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lg   = log -p -40
     stat = git status
     ci   = commit --verbose
     lgd  = log -p -2
