@@ -57,6 +57,11 @@ set query_command="abook --mutt-query %s"
 # Rechtschreibung
 set ispell="aspell -d de_DE -e -c"
 
+# show all folders
+macro index <f3> "c?"
+# show all mailboxes and their size
+macro generic,alias,attach,browser,editor,index,compose,pager,pgp,postpone,mix <f4> "c?\t
+
 # Hier darf kein default für quoted benutzt werden.
 # Ansonsten wird der Rest der Zeile ohne Zeichen in der Defaulthintergrundfrabe des Terminals gezeichnet.
 # Ergo muss hier als Hintergrundfarbe die selbe stehen, wie sonst auch konfiguriert ist.
