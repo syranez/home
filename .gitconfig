@@ -7,11 +7,12 @@
 #+ it uses vimpager as pager if available otherwise less
 #    pager  = gitpager
 [alias]
-    lg   = log -p -40
-    stat = git status
-    ci   = commit --verbose
-    lgd  = log -p -2
-    last = log -1 HEAD
+    lg    = log -p -40
+    stat  = git status
+    ci    = commit --verbose
+    lgd   = log -p -2
+    last  = log -1 HEAD
+    amend = commit --verbose --amend
 [i18n]
     commitEncoding = utf-8
 [merge]
