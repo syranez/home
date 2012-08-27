@@ -4,7 +4,7 @@ set editor=/usr/bin/vim
 # Number of context lines
 set pager_context=1
 # Number of index lines to show
-set pager_index_lines=6
+set pager_index_lines=20
 # no implicit next-page/prev-page
 set menu_scroll
 # status bar on top

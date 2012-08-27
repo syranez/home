@@ -1,0 +1,4 @@
+# standard mutt configuration included
+source ~/.config/mutt/standard
+
+# include here your own settings
