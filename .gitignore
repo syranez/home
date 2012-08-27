@@ -79,6 +79,11 @@
 
 # ignore configuration files I do not care about
 .gnuplot-wxt
+.config/Thunar/
+.config/enchant/
+.config/gtk-2.0/
+.config/libreoffice/
+.config/totem/
 
 # ignore directorys containing only states.
 .macromedia/
