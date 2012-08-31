@@ -13,6 +13,7 @@
     lgd   = log -p -2
     last  = log -1 HEAD
     amend = commit --verbose --amend
+    wtf   = !git-wtf
 [i18n]
     commitEncoding = utf-8
 [merge]

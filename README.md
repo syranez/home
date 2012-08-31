@@ -79,6 +79,14 @@ It is similar at home, but on _each_ of my pcs exist an bare repository.
    work station  remotes
 </pre>
 
+## Directorys
+
+* `./bin`: Executable files which you do want on all your systems.
+** git-wtf
+* `./wrapper`: Wrapper scripts.
+** pager
+** urxvt
+
 Frequently asked questeions
 ---------------------------
 
