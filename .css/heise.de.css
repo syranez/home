@@ -1,0 +1,8 @@
+/*
+ * fix that shitty "first paragraph's font-size is bigger than followings' design-bullshit
+ *
+ * ALL THE PARAGRAPHS HAVE NAO SAME FONT SIZE.
+ */
+#news .meldung_wrapper p {
+    font-size:1em;
+}
