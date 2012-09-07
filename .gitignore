@@ -77,6 +77,7 @@
 # created by some dumb gnome applications
 .gnome2/
 .opera-next/
+.qt/
 
 # ignore configuration files I do not care about
 .gnuplot-wxt
