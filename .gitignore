@@ -17,6 +17,7 @@
 *.flv
 *.avi
 *.wmv
+*.ogv
 
 # Quellcode
 *.php
