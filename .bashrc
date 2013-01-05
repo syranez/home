@@ -11,23 +11,8 @@ if [[ -f ~/.bash/bashrc ]]; then
     . ~/.bash/bashrc
 fi
 
-# CVS Settings
-umask 002 
-export CVSROOT=:pserver:$(id -un)@dev0.fidion.de:/CVS
-alias cvs='cvs -d $CVSROOT'
-
 [[ -f /etc/profile.d/bash-completion ]] &&
     source /etc/profile.d/bash-completion
 
 shopt -s histappend
 PROMPT_COMMAND='history -a'
-
-# VMwares.
-alias ie6="rdesktop -u fidion -p 343466 ie6.intra.fidion.de"
-alias ie7="rdesktop -u fidion -p 343466 ie7.intra.fidion.de"
-
-win7 () {
-    rdesktop -u syranez -k de -g 1280x1000 192.168.42.132
-}
- 
-PATH="/www/pfirsichtorte.naxos.fidion.de/fcmsdev/bin:${PATH}"
