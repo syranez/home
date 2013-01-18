@@ -49,6 +49,8 @@
 .fontconfig/
 .Xauthority
 .esd_auth
+.dmrc
+.dmenu_cache
 
 # configuration of programs, I should not touch
 .htoprc
