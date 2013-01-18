@@ -1,76 +1,55 @@
 {
-    "bitwise":      false,      // REVISIT! currently disallow bit operations.
-    "curly":        true,       // all blocks do have to have {} 
-    "eqeqeq":       false,      // Require triple equals i.e. `===`.
-    "forin":        true,       // Each for in loop has to have an hasOwnProperty-Check
-    "immed":        true,       // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
-    "latedef":      true,       // Prohibit variable use before definition.
-    "newcap":       false,      // Functions used by new must not be capitalized
-    "noarg":        true,       // Prohibit use of `arguments.caller` and `arguments.callee`.
-    "noempty":      false,      // REVISIT! Do not warn about empty blocks.
-    "nonew":        true,       // Prohibit use of constructors for side-effects.
-    "plusplus":     true,       // Prohibit ++ and --
-    "regexp":       true,       // Prohibit `.` and `[^...]` in regular expressions.
-    "undef":        true,       // Require all non-global variables be declared before they are used.
-    "strict":       false,      // No "use strict".
-    "trailing":     true,       // Prohibit trailing whitespaces.
+    "bitwise":      false,
+    "curly":        true,
+    "eqeqeq":       false,
+    "forin":        true,
+    "immed":        true,
+    "latedef":      true,
+    "newcap":       false,
+    "noarg":        true,
+    "noempty":      false,
+    "nonew":        true,
+    "plusplus":     true,
+    "regexp":       true,
+    "undef":        true,
+    "strict":       false,
+    "trailing":     true,
 
-    // supress warnings
-    "asi":          false,      // Do not trust automatic semicolon insertion
-    "boss":         false,      // Do not tolerate assignments inside if, for and while.
-    "debug":        true,       // Ignore warnings about debugger statements.
-    "eqnull":       false,      // REVISIT! Do not suppress warnings about == null compares.
-    "es5":          false,      // REVISIT! Do not allow ECMAScript 5 syntax.
-    "esnext":       false,      // REVISIT! Do not allow ES.next syntax.
-    "evil":         false,      // Do not suppress warnings about eval.
-    "expr":         false,      // REVISIT! Do not tolerate `ExpressionStatement` as Programs.
-    "funcscope":    true,       // Do not warn about function declaration in control structures.
-    "globalstrict": false,      // Do not suppress the warning about use of global strict.
-    "iterator":     false,      // Do not suppress warnings about use of __iterator__ property.
-    "lastsemic":    false,      // Do not suppress warnings about missing semicolons on last statements.
-    "laxbreak":     true,       // Do suppress warnings about possibly unsafe line breakings.
-    "laxcomma":     false,      // Do not suppress warnings about comma-first coding style.
-    "loopfunc":     false,      // Do not suppress warnings about creating functions in loops.
-    "multistr":     false,      // Do not suppress warnings about multi-line strings.
-    "onecase":      false,      // Do not suppress warnings about switches with only one case.
-    "proto":        false,      // Do not suppress warnings about deprecated __proto__-Property.
-    "regexdash":    false,      // Do not suppress warning about unesacped - in regex.
-    "scripturl":    false,      // Do not suppress warnings about use of javascript:-urls.
-    "smarttabs":    false,      // Do not suppress warnings about mixed spaces and tabs.
-    "shadow":       false,      // Do not suppress warnings about variable shadowing.
-    "sub":          true,       // Tolerate all forms of subscript notation besides dot notation e.g. `dict['key']` instead of `dict.key`.
-    "supernew":     false,      // Do not suppress warnings about weird new constructions.
-    "validthis":    false,      // REVISIT! Do not suppress warnings about possible strict violations.
+    "asi":          false,
+    "boss":         false,
+    "debug":        true,
+    "eqnull":       false,
+    "es5":          false,
+    "esnext":       false,
+    "evil":         false,
+    "expr":         false,
+    "funcscope":    true,
+    "globalstrict": false,
+    "iterator":     false,
+    "lastsemic":    false,
+    "laxbreak":     true,
+    "laxcomma":     false,
+    "loopfunc":     false,
+    "multistr":     false,
+    "onecase":      false,
+    "proto":        false,
+    "regexdash":    false,
+    "scripturl":    false,
+    "smarttabs":    false,
+    "shadow":       false,
+    "sub":          true,
+    "supernew":     false,
+    "validthis":    false,
 
-    // Environments
-    "browser":      true,       // Define browser globals
-    "couch":        false,      // Do not define CouchDB globals.
-    "devel":        false,      // Do not define poor-man's debugging objects: console, alert....
-    "dojo":         false,      // Do not define Dojo Toolkit globals.
-    "jquery":       false,      // Do not define jQuery globals.
-    "mootools":     false,      // Do not define MooTools globals.
-    "node":         true,       // Define Node.js globals.
-    "nonstandard":  false,      // Do not define non-standard globals like escape and unescape.
-    "prototypejs":  false,      // Do not define Prototype globals.
-    "rhino":        false,      // Do not define Rhino globals.
-    "wsh":          false       // Do not define Windows Script Host globals.
-
-
-
-/*
-    "maxerr": 100,    // Maximum error before stopping.
-
-    "predef"        : [  // Custom globals.
-        //"exampleVar",
-        //"anotherCoolGlobal",
-        //"iLoveDouglas"
-    ],
-
-    // Personal styling preferences.
-    "nomen"         : false, // Prohibit use of initial or trailing underbars in names.
-    "onevar"        : false, // Allow only one `var` statement per function.
-    "white"         : false,  // Check against strict whitespace and indentation rules.
-    "indent"        : 4      // Specify indentation spacing
-    "passfail": false,     // Do not stop on first error
-    */
+    "browser":      true,
+    "couch":        false,
+    "devel":        false,
+    "dojo":         false,
+    "jquery":       false,
+    "mootools":     false,
+    "node":         true,
+    "nonstandard":  false,
+    "prototypejs":  false,
+    "rhino":        false,
+    "wsh":          false
 }
