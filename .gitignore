@@ -1,3 +1,8 @@
+# ignore directorys with own repository
+.bash/
+.vim/
+.emacs.d/
+
 # Standard file types
 *.pdf
 *.[jJ][pP][gG]
