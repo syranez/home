@@ -4,6 +4,3 @@
 [submodule ".bash"]
 	path = .bash
 	url = git@github.com:syranez/.bash.git
-[submodule ".emacs.d"]
-	path = .emacs.d
-	url = git@github.com:syranez/.emacs.d.git
