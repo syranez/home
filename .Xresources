@@ -38,12 +38,6 @@ URxvt.scrollstyle: plain
 URxvt.secondaryScroll: true
 URxvt.foreground: #00DD00
 URxvt.background: black
-URxvt.urlLauncher: firefox
-URxvt.matcher.button: 1
-URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
-! URxvt.matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
-URxvt.perl-ext-common: default,matcher
-! URxvt.perl-ext-common: default,matcher,-option-popup,-selection-popup,-readline
 URxvt.tintColor: black
 URxvt.mapAlert: True
 URxvt.visualBell: False
@@ -75,3 +69,7 @@ Xft.rgba: rgb
 *boldFont:       xft:DejaVu\ Sans\ Mono\ for\ Powerline:bold:pixelsize=11
 *italicFont:     xft:DejaVu\ Sans\ Mono\ for\ Powerline:italic:pixelsize=11
 *boldItalicFont: xft:DejaVu\ Sans\ Mono\ for\ Powerline:bold:italic:pixelsize=11
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:      /usr/bin/firefox
+URxvt.matcher.button:   1
