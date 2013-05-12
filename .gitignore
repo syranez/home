@@ -48,6 +48,7 @@
 .rnd
 .ICEauthority
 .dbus/
+.pulse/
 .dvdcss/
 .covers/
 .cache/
