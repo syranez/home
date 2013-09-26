@@ -59,8 +59,10 @@ bind-key l down
 bind-key n toggle-show-read-feeds
 
 # theme
-color background white blue
-color listnormal white blue
-color listfocus yellow blue bold
-color info white blue bold
-color article white blue bold
+color background white black
+color listnormal white black
+color listnormal_unread white black
+color listfocus yellow black bold
+color listfocus_unread yellow black bold
+color info white black bold
+color article white black bold
