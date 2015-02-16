@@ -1,0 +1,16 @@
+def_key "k"
+  scroll_up
+
+def_key "j"
+  scroll_down
+
+def_key "l"
+  next_column
+
+def_key "h"
+  previous_column
+
+# Die Einstellung "def_key "l" hat die Einstellung überschrieben, Liedtexte online zu suchen.
+# Aus diesem Grund sollte an dieser Stelle ein neues Kürzel hinzugefügt werden:
+def_key "*"
+  show_lyrics
