@@ -9,8 +9,11 @@
 *.jpe
 *.zip
 *.odt
+*.doc
 *.[pP][nN][gG]
 *.html
+*.rar
+*.iso
 # Ignore vim swap files
 *.swp
 
@@ -23,6 +26,8 @@
 *.avi
 *.wmv
 *.ogv
+*.mpg
+*.m4a
 
 # Quellcode
 *.php
@@ -30,7 +35,7 @@
 *.js
 
 *.pgp
-*.kdb
+*.kdb[x]
 *.lock
 *.txt
 *.img
